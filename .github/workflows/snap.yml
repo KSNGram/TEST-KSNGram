@@ -61,7 +61,7 @@ jobs:
           sudo lxd waitready
 
       - name: Free up some disk space.
-        uses: endersonmenezes/free-disk-space@dd13eb48e709830a7ec4e50692e841be6b400d90
+        uses: endersonmenezes/free-disk-space@6c4664f43348c8c7011b53488d5ca65e9fc5cd1a
         with:
           remove_android: true
           remove_dotnet: true
